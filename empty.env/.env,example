@@ -1,0 +1,14 @@
+TEST=kekws
+#your room ID
+ROOM_ID=
+#pwd to your room
+PWD=
+#path to your player log i.e C:\\Users\\User\\AppData\\LocalLow\\Elder Game\\Project Gorgon\\Player.log
+FILEPATH=
+#players to track, provide in Player1|Player2|Player3 format, case sensitive (same as the ones you defined in your room creation)
+PLAYERS_TO_TRACK=
+#keep at false or your pc goes boom
+DEV=false
+#set to true if you want your room to be created automatically when app is started
+#if this is true roomID param is ignored since code will get roomId after it creates room 
+CREATE_ROOM=true
